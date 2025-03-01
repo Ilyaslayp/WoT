@@ -33,5 +33,19 @@ namespace SimpleApp
             string userInput = textBox3.Text;
             MessageBox.Show("Вы загадали: " + userInput, "Сообщение", MessageBoxButtons.OK, MessageBoxIcon.Information);
         }
+
+        private void exitButton_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
+
+
+        private void MainForm_DoubleClick(object sender, EventArgs e)
+        {
+            clickLabel.Visible = true;
+            var newvar = new NewClass();
+            newvar.Name = "";
+        }
+
     }
 }
