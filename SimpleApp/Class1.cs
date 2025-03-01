@@ -21,6 +21,11 @@ namespace SimpleApp
 
         public void DoSomething()
         {
+            //здесь что-то непроисходит
+        }
+
+        public void DoSomething1()
+        {
             //здесь что-то происходит
         }
 
